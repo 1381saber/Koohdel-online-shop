@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.showinfoadmincontroller">
+   <children>
+      <Label alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: #364fb5#364fb5;" text="Admin information">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7631579041481018" green="0.3003167510032654" blue="0.3003167510032654" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="316.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="49.0" prefWidth="108.0" style="-fx-background-radius: 16; -fx-background-color: #1d2947#1d2947;" text="back" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="106.0" prefHeight="41.0" prefWidth="149.0" style="-fx-background-color: #1d2947#1d2947 #1d2947#1d2947; -fx-background-radius: 18;" text="Name :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="168.0" prefHeight="41.0" prefWidth="149.0" style="-fx-background-color: #1d2947#1d2947 #1d2947#1d2947; -fx-background-radius: 18;" text="password :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="226.0" prefHeight="41.0" prefWidth="149.0" style="-fx-background-color: #1d2947#1d2947 #1d2947#1d2947; -fx-background-radius: 18;" text="Username :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="281.0" prefHeight="41.0" prefWidth="149.0" style="-fx-background-color: #1d2947#1d2947 #1d2947#1d2947; -fx-background-radius: 18;" text="Email :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="102.0" prefHeight="49.0" prefWidth="308.0" style="-fx-background-color: #3748ab#3748ab; -fx-background-radius: 11;" text="Saber Sabzi" textFill="#dddddd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="164.0" prefHeight="49.0" prefWidth="308.0" style="-fx-background-color: #3748ab#3748ab; -fx-background-radius: 11;" text="admin" textFill="#dddddd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="222.0" prefHeight="49.0" prefWidth="308.0" style="-fx-background-color: #3748ab#3748ab; -fx-background-radius: 11;" text="admin" textFill="#dddddd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="277.0" prefHeight="49.0" prefWidth="308.0" style="-fx-background-color: #3748ab#3748ab; -fx-background-radius: 11;" text="sabersabzi2002@gmail.com" textFill="#dddddd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

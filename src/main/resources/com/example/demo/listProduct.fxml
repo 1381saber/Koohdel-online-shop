@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.listProductController">
+   <children>
+      <Button layoutX="14.0" layoutY="31.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="579.0" style="-fx-background-radius: 15; -fx-background-color: #526cc3#526cc3;" text="DIGITAL(laptop,mobile,)" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="15.0" layoutY="102.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="579.0" style="-fx-background-radius: 12; -fx-background-color: #344b7c#344b7c;" text="HOUSE(oven,tv,...)" textFill="WHITE" AnchorPane.rightAnchor="6.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="305.0" layoutY="177.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="293.0" style="-fx-background-radius: 15; -fx-background-color: #526cc3#526cc3;" text="CLOTHING(dress,shoes)" textFill="#111111">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="15.0" layoutY="177.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="285.0" style="-fx-background-radius: 15; -fx-background-color: #526cc3#526cc3;" text="MEAL FOOD">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuid" layoutX="16.0" layoutY="253.0" mnemonicParsing="false" onMouseClicked="#menuid" prefHeight="43.0" prefWidth="579.0" style="-fx-background-color: #344b7c#344b7c; -fx-background-radius: 14;" text="MENU">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Label alignment="CENTER" layoutX="23.0" layoutY="-3.0" prefHeight="34.0" prefWidth="553.0" text="**********list of products**********">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

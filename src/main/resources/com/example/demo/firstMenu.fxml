@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8f99ab#8f99ab #8f99ab#8f99ab;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.firstMenuController">
+   <children>
+      <Label alignment="CENTER" layoutY="1.0" prefHeight="71.0" prefWidth="600.0" style="-fx-background-color: #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8; -fx-background-radius: 15;" text="koohdel online shop" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="43.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8274509906768799" green="0.7568627595901489" blue="0.20392157137393951" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="18.0" layoutY="93.0" mnemonicParsing="false" onMouseClicked="#listpro" prefHeight="89.0" prefWidth="556.0" style="-fx-background-color: #1e1a57#1e1a57; -fx-background-radius: 15;" text="products" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8240740895271301" green="0.8148148059844971" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="21.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#signup" prefHeight="179.0" prefWidth="257.0" style="-fx-background-color: #423ca1#423ca1; -fx-background-radius: 15%;" text="SIGN UP" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="322.0">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.04437743499875069" green="0.003776803147047758" blue="0.8157894611358643" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="320.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#loginid" prefHeight="179.0" prefWidth="257.0" style="-fx-background-color: #423ca1#423ca1; -fx-background-radius: 15%;" text="LOGIN" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

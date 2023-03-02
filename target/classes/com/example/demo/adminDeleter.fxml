@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.adminAccDeleter">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane onMouseClicked="#menuid" prefHeight="400.0" prefWidth="606.0" style="-fx-background-color: #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab #8f99ab#8f99ab; -fx-background-radius: 8;">
+               <children>
+                  <Label alignment="CENTER" layoutX="1.0" layoutY="1.0" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: #8e88e8#8e88e8 #8e88e8#8e88e8;" text="Delete Accounts Panel">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.4736842215061188" green="0.4583333432674408" blue="0.4583333432674408" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Button layoutX="51.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#delete" prefHeight="86.0" prefWidth="234.0" style="-fx-background-color: #323d97#323d97; -fx-background-radius: 9;" text="delete ">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button layoutX="320.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#menuid" prefHeight="86.0" prefWidth="217.0" style="-fx-background-color: #323d97#323d97; -fx-background-radius: 9;" text="menu">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <TextField fx:id="pass" layoutX="168.0" layoutY="165.0" prefHeight="35.0" prefWidth="290.0" promptText="account id" />
+                  <Label alignment="CENTER" layoutX="107.0" layoutY="119.0" prefHeight="29.0" prefWidth="418.0" style="-fx-background-color: #21b5a1#21b5a1; -fx-background-radius: 10;" text="enter username of seller or customer  you want to delete">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

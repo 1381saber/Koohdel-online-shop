@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.addproduct">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane layoutX="-1.0" prefHeight="401.0" prefWidth="602.0">
+               <children>
+                  <AnchorPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8f99ab#8f99ab;">
+                     <children>
+                        <Label alignment="CENTER" layoutX="1.0" prefHeight="48.0" prefWidth="600.0" style="-fx-background-color: #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8 #8e88e8#8e88e8; -fx-background-radius: 14;" text="wellcome to add product panel" textFill="#432c2c">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="30.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#menuid" prefHeight="76.0" prefWidth="553.0" style="-fx-background-color: #0d557c#0d557c; -fx-background-radius: 13;" text="menu">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0" startX="0.41330166270783847">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                        <Button layoutX="221.0" layoutY="127.0" mnemonicParsing="false" onMouseClicked="#digi" prefHeight="48.0" prefWidth="164.0" style="-fx-background-color: #4d68cd#4d68cd; -fx-background-radius: 13;" text="laptop">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="415.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#cloth" prefHeight="85.0" prefWidth="164.0" style="-fx-background-color: #4d68cd#4d68cd; -fx-background-radius: 13;" text="Dress">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="36.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#cloth" prefHeight="85.0" prefWidth="164.0" style="-fx-background-color: #4d68cd#4d68cd; -fx-background-radius: 13;" text="Shoes">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="415.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#house" prefHeight="85.0" prefWidth="164.0" style="-fx-background-color: #4d68cd#4d68cd; -fx-background-radius: 13;" text="Oven">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="36.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#house" prefHeight="85.0" prefWidth="164.0" style="-fx-background-color: #4d68cd#4d68cd #4d68cd#4d68cd; -fx-background-radius: 13;" text="Refrigerator">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="221.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#house" prefHeight="48.0" prefWidth="164.0" style="-fx-background-color: #461b90#461b90; -fx-background-radius: 13;" text="Tv" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="221.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#digi" prefHeight="48.0" prefWidth="164.0" style="-fx-background-color: #461b90#461b90; -fx-background-radius: 13;" text="Mobile" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
